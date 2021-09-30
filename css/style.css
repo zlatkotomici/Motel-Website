@@ -46,6 +46,22 @@ p {
   background: #f7c08a;
   color: #333;
 }
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-primary {
+  background: #333;
+  color: #f7c08a;
+}
 
 /* Navbar */
 #navbar {
@@ -97,3 +113,23 @@ p {
   line-height: 1.7em;
 }
 
+/* Home-info */
+#home-info {
+  height: 400px;
+}
+.info-img {
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+  float: left;
+  width: 50%;
+}
+.info-content {
+  text-align: center;
+  padding: 50px 30px;
+  float: right;
+  width: 50%;
+  overflow: hidden;
+}
+.info-content p {
+  padding-bottom: 30px;
+}
